@@ -1,0 +1,41 @@
+.headerContainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: lightgray 50% / cover no-repeat;
+    color: #4C4C4B;
+}
+
+
+.headerLogo{
+    width: 118px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 10px; */
+    align-items: start;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    /* margin-left: 10px; */
+    gap: 50px;
+}
+
+.navigation p{
+    font-family: Cormorant, sans-serif;
+    font-size: 26px;
+}
+
+.searchBar{
+    width: 40px;
+    height: 40px;
+    /* margin-left: 10px; */
+    display: flex;
+    align-items: start;
+    gap: 100%;
+    margin-top: 35px;
+}
